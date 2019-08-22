@@ -1,5 +1,3 @@
-.scannerwork/
-
 # Logs
 logs
 *.log
@@ -62,9 +60,23 @@ typings/
 # Mac files
 .DS_Store
 
-#temporary files
-/tmp
-/temp
+# temporary files
+tmp
+temp
 
-#art
+# art
 /art
+
+# others
+/src/server/battleOutput.json
+/dist/battleOutput.json
+
+# ansible ignore
+/deployment/ansible.cfg
+/deployment/*.retry
+
+# jsbattle data
+/**/*/jsbattle-data
+
+# distribution
+dist
